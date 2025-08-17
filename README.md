@@ -1,12 +1,10 @@
-# AstroNvim Template
+# SpaceNvim
 
-**NOTE:** This is for AstroNvim v5+
+> Antes de iniciar o processo de instalação do SpaceNvim, veja sobre os requerimentos e dependências para poder instalá-lo e para poder usá-lo sem dor de cabeça na [Documentação do AstroNvim](https://docs.astronvim.com/)
 
-A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+## 🛠️ Instalação
 
-## 🛠️ Installation
-
-#### Make a backup of your current nvim and shared folder
+#### Faça um backup da sua config atual do Neovim
 
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
@@ -15,20 +13,21 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
-#### Create a new user repository from this template
 
-Press the "Use this template" button above to create a new repository to store your user configuration.
-
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
-
-#### Clone the repository
+#### Clone este repositório
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone https://github.com/gustavo-bento-teles/SpaceNvim ~/.config/nvim
 ```
 
-#### Start Neovim
+#### Inicie o Neovim
 
 ```shell
 nvim
 ```
+
+---
+
+### Informações
+
+Vou focar em manter esse fork do AstroNvim como um Linux-only, talvez ele possa funcionar no Windows, mas não vai ser meu foco, porque a princípio decidi fazer este fork para ser uma configuração pessoal.
