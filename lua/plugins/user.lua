@@ -70,7 +70,6 @@ return {
     end,
   },
 
-  require("user.plugins.theme"),
   require("user.plugins.neo-tree"),
   require("user.plugins.noice"),
 }

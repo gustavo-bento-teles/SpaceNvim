@@ -1,5 +1,4 @@
 -- Customize Treesitter
-
 ---@type LazySpec
 return {
   "nvim-treesitter/nvim-treesitter",
@@ -7,8 +6,8 @@ return {
     ensure_installed = {
       "lua",
       "vim",
-      "python"
-      -- add more arguments for adding more treesitter parsers
+      "python",
+      "c_sharp",
     },
   },
 }

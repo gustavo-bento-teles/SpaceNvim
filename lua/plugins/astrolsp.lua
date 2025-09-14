@@ -37,7 +37,8 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      "pyright"
+      "pyright",
+      "omnisharp"
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
@@ -45,6 +46,13 @@ return {
       lsp = {
         hover = { enabled = false },
       },
+      omnisharp = {
+        cmd = { vim.fn.stdpath("data") .. "/mason/packages/omnisharp/OmniSharp", "--languageserver", "--hostPID", tostring(vim.fn.getpid()) },
+        enable_editorconfig_support = true,
+        enable_roslyn_analyzers = true,
+        enable_import_completion = true,
+      },
+
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
     },
     -- customize how language servers are attached
