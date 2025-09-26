@@ -8,6 +8,11 @@ return {
       "vim",
       "python",
       "c_sharp",
+      "c",
+      "cpp",
     },
+    highlight = { enable = true },
+    indent = { enable = true },
+    incremental_selection = { enable = true },
   },
 }
